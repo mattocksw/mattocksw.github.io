@@ -10,12 +10,11 @@
   <title>Mattock software</title>
 
   <style>
-    a:link {color: black; text-decoration: none;}
-    a:hover {color: black;}
-    a:visited {color: black; text-decoration: none;}
-    a:active{color: black;}
+    a.noStyle:link {color: black; text-decoration: none;}
+    a.noStyle:hover {color: black;}
+    a.noStyle:visited {color: black; text-decoration: none;}
+    a.noStyle:active{color: black;}
 
-    a.dlink:hover {text-decoration: underline; color: blue;}
 
   </style>
 
@@ -27,7 +26,7 @@
 
     <!--Header-->
 
-    <a href="../index.html">
+    <a class="noStyle" href="../index.html">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-2">Tarina</h1>
@@ -46,22 +45,22 @@
 
           <h1 class="display-4">Features</h1>
 
-          <p class="lead">Tarina is a novel writing software that runs on your favorite browser.<br>
-          This allows you to utilize the powerful <b>grammar check</b> of your browser as well as opening <b>multiple windows.</b><br>
-          With Tarina, you can easily <b>navigate your notes</b> while writing your novel<br>
-          The editor supports all your needs from highlighting to images. Download here and test it yourself:
+          <p class="lead">Tarina is a novel writing software that runs on your browser.
+          Unlike many other programs, Tarina allows you to open the story in multiple windows.
+          This way editing and referencing becomes easier and the whole writing experience more fluid.
+          The editor includes wide variety of formatting options as well as adding tables and images.
+          The novels can be exported in either docx or html format. Download here and test it yourself:
           </p>
 
-          <a href='Tarina.zip' download class="dlink">
+          <a role="button" class="btn btn-primary btn-lg" href='Tarina.zip' download class="dlink">
             Windows download: version 1.0.0
           </a>
 
-
           <img class="img-fluid rounded mt-5" src="Tarina1.png">
 
-
-
-
+          <p class="lead mt-5">
+            If you are having problems with the software, please try to update your browser or try another. Unfortunately, Edge browser seems to have some issues in the latest version.
+          </p>
 
 
         </div>
@@ -82,7 +81,7 @@
           <div class="row text-center text-md-left mt-2 pb-3">
 
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-2">
-              <h6 class="text-uppercase mb-4 font-weight-bold"><a href="../index.html">Mattock Software</a></h6>
+              <h6 class="text-uppercase mb-4 font-weight-bold"><a class="noStyle" href="../index.html">Mattock Software</a></h6>
             </div>
 
             <hr class="w-100 clearfix d-md-none">
@@ -90,8 +89,8 @@
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-2">
               <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-              <p><a href="../Geo/GeoMinesweeper.html">Geo Minesweeper</a></p>
-              <p><a href="Tarina.html">Tarina</a></p>
+              <p><a class="noStyle" href="../Geo/GeoMinesweeper.html">Geo Minesweeper</a></p>
+              <p><a class="noStyle" href="Tarina.html">Tarina</a></p>
             </div>
 
 
